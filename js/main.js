@@ -128,16 +128,6 @@
   });
 
   /**
-   * Preloader
-   */
-  let preloader = select("#preloader");
-  if (preloader) {
-    window.addEventListener("load", () => {
-      preloader.remove();
-    });
-  }
-
-  /**
    * Hero type effect
    */
   const typed = select(".typed");
@@ -248,9 +238,4 @@
       mirror: false,
     });
   });
-
-  /**
-   * Initiate Pure Counter
-   */
-  new PureCounter();
 })();
